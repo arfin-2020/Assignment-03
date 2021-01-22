@@ -1,4 +1,4 @@
-
+// https://github.com/arfin-2020/Assignment-03
 
 function kilometerToMeter(kilo){
     if(kilo<=0){
@@ -15,7 +15,7 @@ function kilometerToMeter(kilo){
 
 function budgetCalculator(watch,phone,laptop){
     if(watch<=0 && phone<=0 && laptop<=0){
-        return "please enter valid value";
+        return "please enter valid value.";
     }
     else{
         var watch = watch*50;
@@ -26,6 +26,8 @@ function budgetCalculator(watch,phone,laptop){
     }
     
 }
+
+
 
 
 function hotelCost(days)
@@ -55,7 +57,10 @@ function megaFriend(arr){
     var longest;
     
     for (var i = 0; i < arr.length; i++) {
-      if (arr[i].length > length) {
+    if(arr[i].length<=0){
+        return "Enter  Fullfill Name";
+    }
+     else if (arr[i].length > length) {
         var length = arr[i].length;
         longest = arr[i];
       }
@@ -63,6 +68,6 @@ function megaFriend(arr){
     return longest;
 
 }
-// var array = ["Mississippi","Delaware","Ohio","Sangamon","Black","Current","Chattahochee"];
-// var result = megaFriend(array);
-//   console.log(result);
+var array = ["lkljkljlkjlkjlkjlkj","Delaware","Ohio","Sangamon","Black","","Chattahochee"];
+var result = megaFriend(array);
+  console.log(result);
