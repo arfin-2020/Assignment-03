@@ -63,6 +63,6 @@ function megaFriend(arr){
     return longest;
 
 }
-var array = ["Mississippi","Delaware","Ohio","Sangamon","Black","Current","Chattahochee"];
-var result = megaFriend(array);
-  console.log(result);
+// var array = ["Mississippi","Delaware","Ohio","Sangamon","Black","Current","Chattahochee"];
+// var result = megaFriend(array);
+//   console.log(result);
